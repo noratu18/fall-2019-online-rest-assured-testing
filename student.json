@@ -1,0 +1,29 @@
+{
+  "admissionNo": "8888",
+  "batch": 15,
+  "birthDate": "01/01/2020",
+  "company": {
+    "address": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "street": "7777 NO NAME  Dr",
+      "zipCode": 22102
+    },
+    "companyName": "Cybertek",
+    "startDate": "02/02/2020",
+    "title": "SDET"
+  },
+  "contact": {
+    "emailAddress": "meme@gmail.com",
+    "phone": "240-123-1231",
+    "premanentAddress": "7925 Jones Branch Dr"
+  },
+  "firstName": "Ainura",
+  "gender": "Female",
+  "joinDate": "01/01/2020",
+  "lastName": "Nora",
+  "major": "CS",
+  "password": "1234",
+  "section": "101010",
+  "subject": "Java"
+}
