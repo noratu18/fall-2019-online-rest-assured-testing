@@ -39,9 +39,11 @@ public class POJOPracticeWithPreschool {
     @Test
     public void getStudentTest(){
         //sending request
-        Response response = get("/student/{id}", 11613).prettyPeek();
+        Response response = get("/student/{id}", 11613)
+                .prettyPeek();
         // getting request
-        Student student = response.jsonPath().getObject("students[0]", Student.class);
+        Student student = response.jsonPath().
+                getObject("students[0]", Student.class);
         System.out.println("student = " + student);
 
     }

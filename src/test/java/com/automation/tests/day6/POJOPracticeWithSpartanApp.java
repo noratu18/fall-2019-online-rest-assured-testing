@@ -32,9 +32,9 @@ public class POJOPracticeWithSpartanApp {
     @Test
     public void addSpartanTest(){
         Map<String, Object> spartan = new HashMap<>();
-        spartan.put("gender", "Male");
-        spartan.put("name", "Meder");
-        spartan.put("phone", "888188181818");
+        spartan.put("gender", "Female");
+        spartan.put("name", "Ainura");
+        spartan.put("phone", "8881881818");
 
         //Interface
         // Allows you to specify how the request will look like.
@@ -69,15 +69,15 @@ public class POJOPracticeWithSpartanApp {
 
     @Test
     public void updateSpartanTest(){
-        int userToUpdate = 178;
-        String name = "Baha";
+        int userToUpdate = 25;
+        String name = "Ainura";
 
         //HTTP PUT--> request to update exiting record, for example existing spartan.
         // PUT --> requires to provide ALL parameters in body
         // PUT --> requires same body as POST , we need to give whole entire body
         // If you miss at least one parameter, it will not work
 
-        Spartan spartan = new Spartan(name, "Female", 1234658790L);
+        Spartan spartan = new Spartan(name, "Female", 1234658799l);
 
         //get spartan from web service
         Spartan spartanToUpdate = given()
@@ -118,7 +118,7 @@ public class POJOPracticeWithSpartanApp {
     public void patchUserTest1(){
         // PATCH --> partial update of existing record, we don't need to give the whole body
 
-        int userId = 212; // user to update, make user with this id exist
+        int userId = 280; // user to update, make user with this id exist
 
        //get all spartans with List
         Response response0 = given().accept(ContentType.JSON)

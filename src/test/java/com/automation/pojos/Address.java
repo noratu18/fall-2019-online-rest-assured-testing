@@ -10,6 +10,19 @@ package com.automation.pojos;
         }
  */
 
+/*
+/**
+ * Composition - is one of the fundamental concepts of OOP
+ * When class, is referenced to one or more objects of another class
+ * in instance variables, it calls composition.
+ *
+ * company object will contain address object
+ *
+ * The main advantage of Composition is that you can reuse the code
+ * without is-a relationship (without inheritance)
+ */
+
+
 public class Address {
 
     private int addressId;

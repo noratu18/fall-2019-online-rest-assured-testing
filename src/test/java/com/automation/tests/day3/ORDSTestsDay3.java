@@ -21,6 +21,7 @@ public class ORDSTestsDay3 {
 
     @BeforeAll
     public static void setup(){
+
         baseURI = "http://54.224.118.38:1000/ords/hr";
     }
 
@@ -61,6 +62,9 @@ public class ORDSTestsDay3 {
         // an object from the document. You can regard it as an alternative to XPath for JSON.
         //Groovy --> is another programming language that based on Java
         JsonPath jsonPath = response.jsonPath();
+
+        // items it's an object. whenever you need to read some property from the object, you put object.property
+        //but, if response has multiple objects, we can get property from every object
 
         //items --> names of the array where all employees are stored
         // we use items[0]--> because the data is in array

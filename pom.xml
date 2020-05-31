@@ -31,6 +31,15 @@
         <version>4.3.0</version>
         <scope>test</scope>
     </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -39,7 +48,10 @@
             <scope>test</scope>
         </dependency>
 
-<!--https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.6 -->
+<!--https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.6
+        Gson is google library
+        Gson for Serialization(java obj to Json obj)
+        and Deserialization(Json obj to Java obj)-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

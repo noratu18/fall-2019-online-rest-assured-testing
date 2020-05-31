@@ -21,7 +21,7 @@ public class Spartan {
     private  int id;
     private  String name;
     private String gender;
-    @SerializedName("phone")
+    @SerializedName("phone")//we have add this if variable name in java is different from variable name in JSON
     private long phoneNumber;
     /*
      These field (phoneNumber) is annotated with the @SerializedName annotation.
